@@ -1,0 +1,63 @@
+#thumbnail01
+{
+    background: url("../../assets/images/principal-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 15em 1em;
+}
+
+#FAFP a img
+{
+    transition: all ease-in 0.2s;
+}
+
+#FAFP a img:hover
+{
+    transform: scale(0.9);
+}
+#FAFP a p:hover
+{
+    color: var(--color-2);
+}
+
+
+#FP {
+    display: flex;
+    overflow-x: auto;
+
+}
+
+
+#FP::-webkit-scrollbar {
+    width: 5px; /* Tamaño del scroll en vertical */
+    height: 7px; /* Tamaño del scroll en horizontal */
+    overflow-x: hidden !important; /* Ocultar scrollbar horizontal  */
+}
+
+#FP::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 7px;
+}
+
+#FP::-webkit-scrollbar-thumb:hover {
+    background: #cccccc;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#FP::-webkit-scrollbar-thumb:active {
+    background-color: #ffffff;
+}
+
+#FP::-webkit-scrollbar-track {
+    background: #111;
+    border-radius: 7px;
+}
+
+
+
+.title {
+    display: inline !important;
+    margin-right: 10px; /*opcional para agregar un espacio entre cada .title*/
+}
